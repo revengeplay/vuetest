@@ -25,21 +25,16 @@ const routes = [
     component: AuthLayout,
     children: [
       {
-        path: '/signin',
+        path: 'signin',
         name: 'SignIn',
         component: SignIn
       },
       {
-        path: '/signup',
+        path: 'signup',
         name: 'SignUp',
         component: SignUp
       }
     ]
-  },
-  {
-    path: '/signin',
-    name: 'SignIn',
-    component: SignIn
   }
 ]
 

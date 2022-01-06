@@ -1,5 +1,7 @@
 <template>
-    <div></div>
+    <v-toolbar-title>
+        유저
+    </v-toolbar-title>
 </template>
 
 <script>
